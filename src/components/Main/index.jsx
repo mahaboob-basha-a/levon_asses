@@ -4,8 +4,7 @@ import dashboardImage from '../../assets/dataAnalyse.jpg'
 import './index.css'
 
 const Main = () => {
-    const {darkMode,changeThemeMode} = useContext(InitialContext)
-    console.log(darkMode,changeThemeMode)
+    const {darkMode} = useContext(InitialContext)
   return (
     <div className={darkMode ? 'main-page-dark' : 'main-page-light' }>
       <div className='main-text-content'>
